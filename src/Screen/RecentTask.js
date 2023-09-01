@@ -16,6 +16,9 @@ function RecentTask() {
     data.id = totalStudents + 1;
     const updatedStudentData = [...studentData];
     updatedStudentData.push(data);
+
+
+    
     setStudentData(updatedStudentData);
   };
 const onDelte =(id)=> {
